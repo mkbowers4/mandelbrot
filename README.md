@@ -4,12 +4,12 @@ example use of TBB and SSE intrinsics
 
 usage: ./mandelbrot MODE X Y R ITER
 
-MODE = 0 or 1. 0 will print all mandelbrot runs, 1 for only fastest one
-    X = Xcenter
-    Y = Ycenter
-    R = Radius                  
-    ITER = Max# of Iterations   
-    S
+MODE = 0 or 1. 0 for all runs, 1 for fastest
+X = Xcenter
+Y = Ycenter
+R = Radius                  
+ITER = Max# of Iterations   
+    
 example coordinates:
         ./mandelbrot 0 0 0 2 256                                    
         ./mandelbrot 0 -0.7568097 -0.0668795 0.001 2048 
