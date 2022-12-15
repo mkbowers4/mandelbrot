@@ -12,12 +12,12 @@ MODE = 0 or 1. 0 will print all mandelbrot runs, 1 for only fastest one
     S
 example coordinates:
         ./mandelbrot 0 0 0 2 256                                    
-        ./mandelbrot 0 -0.7568097768953 -0.066879524349399 0.001 2048 
+        ./mandelbrot 0 -0.7568097 -0.0668795 0.001 2048 
         ./mandelbrot 0 0.380 0.31 0.005 512                          
         ./mandelbrot 0 0.318 0.5 0.005 4096         
         ./mandelbrot 0 -1.94153391 0.000129404 1 1024        
         ./mandelbrot 0 0.30018 0.4618 0.0001, 2048     
-        ./mandelbrot 0 -0.21757193676756 1.114419679 0.01 256    
+        ./mandelbrot 0 -0.2175719 1.1144196 0.01 256    
         ./mandelbrot 0 -0.75 0.25 0.06 256                
         ./mandelbrot 0 -0.811531 0.201429 0.001 256     
         ./mandelbrot 0 0.2969 0.020 0.015 1024       
